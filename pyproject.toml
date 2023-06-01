@@ -1,0 +1,18 @@
+
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "Marco André Mendes", email = "marcoandre@gmail.com"},
+]
+dependencies = [
+    "django>=4.2.1",
+]
+requires-python = ">=3.10"
+license = {text = "MIT"}
+
+[[tool.pdm.autoexport]]
+filename = "requirements.txt"
+without-hashes = "true"
+
