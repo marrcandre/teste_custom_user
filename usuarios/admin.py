@@ -32,7 +32,7 @@ class CustomUserAdmin(UserAdmin):
             },
         ),
         (
-            _("Aditional Information"),
+            _("Personal info"),
             {"fields": ("cpf", "telefone", "data_nascimento")},
         ),
         (
