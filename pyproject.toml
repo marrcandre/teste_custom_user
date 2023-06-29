@@ -7,7 +7,7 @@ authors = [
     {name = "Marco André Mendes", email = "marcoandre@gmail.com"},
 ]
 dependencies = [
-    "django>=4.2.1",
+    "django==3.2",
     "whitenoise[brotli]>=6.5.0",
     "gunicorn>=20.1.0",
 ]
